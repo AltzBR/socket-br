@@ -12,9 +12,9 @@ let porta = process.env.PORT || 3000
 
 if(porta === 3000) {
   io.set('origins', [
-    'projetos.pc:*', 
-    'ofc.exbrhb.net:*', 
-    'pracas.exbrhb.net:*', 
+    'br:*', 
+    'ofc.forcasarmadasbrhb.net:*', 
+    'pracas.forcasarmadasbrhb.net:*', 
   ]);
 } else {
   //io.set('origins', [
